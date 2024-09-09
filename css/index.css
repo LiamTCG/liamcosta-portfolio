@@ -1,0 +1,87 @@
+/* ---------------- Hero Section styles ---------------- */
+
+#hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 5rem;
+}
+
+#hero .button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+/* ---------------- About Section styles ---------------- */
+
+#about {
+    text-align: center;
+}
+
+#about .skills {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#about .skills .card {
+    padding: 1rem;
+    border: 1px solid #333;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#about .skills .card .icon {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: crimson;
+}
+
+/* ---------------- Portfolio Section styles ---------------- */
+
+#portfolio {
+    text-align: center;
+}
+
+#portfolio .projects {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+/* ---------------- Collaborations Section styles ---------------- */
+
+#collaborations {
+    text-align: center;
+}
+
+#collaborations .brands {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+#collaborations .brands .card {
+    text-align: center;
+}
+
+#collaborations .brands .card img {
+    overflow: hidden;
+}
+
+/* ---------------- CTA Section styles ---------------- */
+
+#cta {
+    text-align: center;
+}
+
+#cta .content {
+    color: #FFF;
+    background-color: #333;
+    padding: 4rem;
+    border-radius: 20px;
+}
